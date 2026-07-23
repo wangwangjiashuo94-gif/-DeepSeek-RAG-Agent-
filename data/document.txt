@@ -1,0 +1,27 @@
+仓库进销管理与库存预警系统
+
+基于SpringBoot + MyBatis-Plus + Thymeleaf构建的进销存管理系统，包含商品/采购/销售/库存全流程管理与基于加权移动平均算法的库存预警模块。独立完成前期全流程开发与部署。
+
+技术栈
+
+包括：SpringBoot 2.x、MyBatis-Plus 3.x
+前端：Thymeleaf 服务端渲染 + Bootstrap
+数据库：MySQL 8.0
+工具库：Apache POI（Excel导出）、Lombok核心功能
+商品/采购/销售/库存全流程管理
+基于加权移动平均算法的库存预警模块
+管理员/普通用户双角色权限+部门级数据隔离
+操作日志记录与Excel报表导出
+关键指标 Dashboard 看板
+项目结构 src/main/java/com/example/bs2026/ ├──controller/#控制层├──service/#业务层├──mapper/#数据访问层├──entity/#实体类└──util/#工具类
+
+本地运行
+
+修改application.yml数据库连接
+执行sql/目录建表脚本
+运行Bs2026Application.java
+访问http://localhost:8080
+默认账号：admin/123456（管理员） shuiguo/123456（用户）
+演示截图 d66ceeb3c64d987ca9f15b3716c5e3ad bc7d30e8c7f54c2d843240387480e839 4a89b1d577a66c9653730a5506eba88c
+
+MIT许可证

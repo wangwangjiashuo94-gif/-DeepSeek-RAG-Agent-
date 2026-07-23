@@ -1,4 +1,4 @@
-# 文档问答 RAG 系统
+# 基于 DeepSeek + Chroma 的 RAG 文档问答系统
 
 基于 DeepSeek + Chroma 的 RAG 文档问答系统，并支持 Function Calling Agent 多工具调用与多轮对话。
 
